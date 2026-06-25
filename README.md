@@ -1,16 +1,51 @@
-# React + Vite
+# 🎮 Tic-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and beautifully designed Tic-Tac-Toe game built using **React**, **Vite**, and **Tailwind CSS v4**.
 
-Currently, two official plugins are available:
+🔗 **Live URL:** [https://tic-tac-toe-react07.vercel.app/](https://tic-tac-toe-react07.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Modern Dark UI**: Sleek glassmorphic design, soft gradients, and neon status badges.
+- **Timeline Travel**: Interactive history sidebar to review or jump back to previous moves.
+- **Fully Responsive**: Optimized layout for smooth gaming on both mobile and desktop screens.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React 19** - Front-end component framework.
+- **Vite 8** - Ultra-fast local development environment and bundler.
+- **Tailwind CSS v4** - Sleek component styling with custom CSS variables and `@theme` parameters.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Installation
+Install all dependencies using npm:
+```bash
+npm install
+```
+
+### 2. Run Locally
+Launch the local Vite development server:
+```bash
+npm run dev
+```
+
+### 3. Build for Production
+Bundle the production build:
+```bash
+npm run build
+```
+
+---
+
+### 🚀 [HappyKoding](https://www.youtube.com/@happykoding07)
+*Let's learn, build, and grow together!*
+
+### 🤝 Let's Connect
+[[Codeforces](https://codeforces.com/profile/tasnim07)] | [[LinkedIn](https://www.linkedin.com/in/tasnimahmed20/)] | [[Facebook](https://www.facebook.com/tasnim.ahmed.20)]
