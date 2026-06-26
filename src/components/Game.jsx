@@ -35,7 +35,7 @@ function Game() {
         <li key={move} className="relative pl-6">
             {/* Visual Bullet on the Timeline */}
             <div
-            className={`absolute left-0 top-3.5 w-2.5 h-2.5 rounded-full border-2 transform -translate-x-[5px] transition-all duration-300 ${
+            className={`absolute left-0 top-3.5 w-2.5 h-2.5 rounded-full border-2 transform -translate-x-1.25 transition-all duration-300 ${
                 isCurrent
                 ? "bg-indigo-400 border-indigo-400 shadow-[0_0_8px_#818cf8]"
                 : "bg-slate-800 border-slate-700/80"
@@ -66,7 +66,7 @@ function Game() {
         <div className="flex flex-col items-center justify-center w-full max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
         
         <div className="text-center mb-8 sm:mb-10">
-            <h1 className="text-4xl sm:text-5xl font-black tracking-wider uppercase bg-gradient-to-r from-cyan-400 via-indigo-400 to-rose-400 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(99,102,241,0.2)]">
+            <h1 className="text-4xl sm:text-5xl font-black tracking-wider uppercase bg-linear-to-r from-cyan-400 via-indigo-400 to-rose-400 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(99,102,241,0.2)]">
             Tic-Tac-Toe
             </h1>
         </div>

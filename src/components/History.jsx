@@ -15,7 +15,7 @@ function History({ moves }) {
         </div>
         
         {/* Step Timeline */}
-        <div className="max-h-[315px] overflow-y-auto pr-1 select-none scrollbar-thin scrollbar-thumb-slate-800 scrollbar-track-transparent">
+        <div className="max-h-78.75 overflow-y-auto pr-1 select-none scrollbar-thin scrollbar-thumb-slate-800 scrollbar-track-transparent">
             <ol className="relative border-l border-slate-800/80 ml-2.5 space-y-3 pb-2">
             {moves}
             </ol>
